@@ -20,7 +20,7 @@ class MemberRepositoryV0Test {
     @Test
     void crud() throws SQLException {
         //save
-        Member member = new Member("memberV5", 10000);
+        Member member = new Member("memberV5", 1000);
         repository.save(member);
 
         //findById
